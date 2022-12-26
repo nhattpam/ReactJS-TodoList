@@ -11,7 +11,12 @@ class Todo extends React.Component {
         id: this.props.id,
         tasks: this.props.tasks
     }
-   
+  }
+
+  //function complete Task
+  completeTask = () => {
+    console.log('Todo completeTask', this.props.id);
+    ``
   }
 
   //function delete Task
